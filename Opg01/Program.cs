@@ -12,8 +12,10 @@ namespace Opg01
         {
             Console.WriteLine("Indtast navn");
             string navn = Console.ReadLine();
-            string stortNavn = navn.ToUpper();
-            Console.WriteLine("Velkommen" + stortNavn);
+            Console.WriteLine("Indtast efternavn");
+            string efternavn = Console.ReadLine();
+            string stortNavn = navn + " " +efternavn.ToUpper();
+            Console.WriteLine("Velkommen " + stortNavn);
             Console.WriteLine("Tryk på en tast for at fortsætte");
             Console.ReadKey();
 
