@@ -35,7 +35,7 @@ namespace Opg02
             Person p;
             p.ID = 1;
             p.Navn = "Mikkel";
-            Console.WriteLine(p.Navn);
+            Console.WriteLine(p.ID +" "+ p.Navn);
 
 
 
