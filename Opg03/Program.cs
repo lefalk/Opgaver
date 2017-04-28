@@ -12,6 +12,7 @@ namespace Opg03
         {
 
             int[] månedsløn = { 1000, 2000, 15000, 200000, 30000, 15000 };
+            Array.Sort(månedsløn);
             double sum = 0;
             for (int i = 0; i < månedsløn.Length; i++)
 
