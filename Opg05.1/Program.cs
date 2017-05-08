@@ -16,9 +16,9 @@ namespace Opg05._1
 
         }
 
-        public static Array BeregnOgSorterArray(int[] a)
+        public static MitArray BeregnOgSorterArray(int[] a)
         { 
-            Array r;
+            MitArray r;
             r.sum = 0;
             
             foreach (var item in a)
@@ -36,16 +36,13 @@ namespace Opg05._1
     }
 }
 
-struct Array
+struct MitArray
 {
 
 
 public double sum;
 public double gennemsnit;
 
-        internal static void Sort(int[] a)
-        {
-            
-        }
+        
     }
 }
